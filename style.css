@@ -1,4 +1,4 @@
-body { font-family: cursive;
+body { font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
      background-color: #e6e68cba;
      color: #171111; 
@@ -8,13 +8,12 @@ body { font-family: cursive;
 header {
      background-color: #5a81b8; 
      color: white; 
-     padding: 20px; 
+     padding: 12px 0; 
      text-align: center;
      } 
 .container { 
     width: 80%; 
-    margin: auto; 
-    overflow: hidden; 
+    margin: 0 auto;  
 } 
 .author-info img { 
     float: left; 
@@ -23,7 +22,7 @@ header {
     border-radius: 8px; 
     float: inline-start;
 } 
-.book-details img { 
+.book img { 
     float: left; 
     margin-right: 20px; 
     max-width: 200px; 
@@ -31,7 +30,7 @@ header {
     float: inline-end;
  } 
 .reviews { 
-    background-color: #ffffff; 
+    background-color: #e7e8ce; 
     border: 1px solid #ccc; 
     padding: 10px; 
     margin-bottom: -90px;
@@ -42,7 +41,42 @@ header {
      color: #7f1705;
      } 
 .review p {
-    font-family: cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
      font-size: 1em; 
      color: #555; 
 }
+
+.footer{
+    background-color: #050505;
+    color: #ccc;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+.footer p{
+    font-size: 1em;
+}
+.container1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.livro img{
+    float: left; 
+    margin-right: 20px; 
+    max-width: 200px; 
+    border-radius: 8px;
+    float: inline-start;
+}
+.livro1{
+    text-align: justify;
+}
+.livro2 img{
+    float: left; 
+    margin-right: 20px; 
+    max-width: 200px; 
+    border-radius: 8px;
+    float:center ;
+}
+
+
+
